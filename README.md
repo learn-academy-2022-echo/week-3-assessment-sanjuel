@@ -49,3 +49,10 @@ The competent stage is the third level of skill acquisition. In the competent le
 - code that will output correct content in the terminal following best practices
 - "your answers" written in complete sentences the student's own words that provide correct answers
 - well researched and detailed answers written in complete sentences in the student's own words that provides additional context
+
+
+Pseudo Code for react debugging-
+changed so onclick turned into onClick, gave it camelCase
+gave the first onClick a function to apss through it, in this case drawCard, cause shuffle was already in use
+added a jsx fragment above and below the code immediately following the return. 
+Honestly, I just followed the error messages on the console. I was worried about this one, so I'm happy I was able to get it to work. 
