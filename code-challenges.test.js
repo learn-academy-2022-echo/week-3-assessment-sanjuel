@@ -52,6 +52,14 @@ console.log(perfectSpin(fibLength2))
 
 // --------------------2) Create a function that takes in an array and returns a new array of only odd numbers sorted from least to greatest.
 
+//Pseudo Code
+//Firs, i know im outputting an array that is less than the original array, so I know i will be using the .filter method
+// Im creating a function named onlyOdd
+// input is an array 
+//to find out if the number is odd, i will use the modulo operator and the typeof function to find out if it is a number at all. 
+//output will be only odd numbers
+// i will then use .sort to make it so the numbers are in order from least to cgreatest. 
+
 // a) Create a test with expect statements for each of the variables provided.
 
 describe("onlyOdd", () => {
@@ -83,6 +91,13 @@ console.log(onlyOdd(fullArr2))
 
 
 // --------------------3) Create a function that takes in an array and returns an array of the accumulating sum. An empty array should return an empty array.
+
+//Pseudo Code
+//I will create a function that takes in an array
+//It will return an array of the sum of the last number added
+//I will use the .map higher order function because I know im returning an array with the same number of values in it
+//I have to use the += because that allows me to add the previous number
+//output will be an array with the numbers of the previous array added together in a line.
 
 // a) Create a test with expect statements for each of the variables provided.
 
